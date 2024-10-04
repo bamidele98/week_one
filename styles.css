@@ -1,0 +1,219 @@
+*{
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    line-height: 20.11px;
+    text-align: center;
+
+}
+.sectone{
+    width: 100%;
+    height: 50rem;
+    background-image: url('./images/background.png'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image in the element */
+    background-repeat: no-repeat;
+}
+.hero{
+    margin: 0 auto;
+    text-align: center;
+    width: 39.81rem;
+    height: 19.56rem;
+    color: white;
+}
+.hero p.bold{
+    font-size: 32px;
+    font-weight: 700;
+}
+.hero p{
+    font-size: 1rem;
+    font-weight: 700;
+}
+p.long{
+    font-weight: 400;
+}
+button{
+    margin: 2.25rem auto 3rem;
+    width: 10rem;
+    height: 2.75rem;
+    border: none;
+    border-radius: 22px;
+    background-color: #FF6565;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    opacity: 0px;
+
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 62.52rem;
+    margin: 0 auto 21rem;
+    font-weight: 700;
+}
+nav > ul{
+ display: flex;
+ gap: 1rem;
+ justify-content: space-between;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li{
+    list-style-type: none;
+}
+.sectionTwo{
+    width: 39.8rem;
+    height: 11.5rem;
+    margin: 5rem auto;
+}
+.icon-container{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 62.6rem;
+    height: 12rem;
+}
+
+.icons > img{
+    width: 94.2px;
+    height: 65.36px;
+    opacity: 0px;
+
+}
+.icons{
+    align-items: center;
+    text-align: center;
+}
+.icons > p.bold{
+    font-size: 18px;
+    font-weight: 600;
+}
+.icons > p{
+    font-size: 14px;
+    font-weight: 400;
+    align-self: center;
+    width: 12.9rem;
+}
+
+.sectionTwo p.bold{
+ font-size: 32px;
+ font-weight: 600;
+}
+.sectionTwo p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.sectionThree p.bold{
+    padding-top: 8rem;
+    font-size: 32px;
+    font-weight: 600;
+
+}
+.section{
+    width: 100%;
+    height: 40.63rem;
+    background-image: url('./images/backgroundTwo.png'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image in the element */
+    background-repeat: no-repeat;
+    color: white
+}
+.sectionThree p.long {
+    width: 39.8rem ;
+    margin: 3rem auto;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.sectionThree p{
+    margin-bottom: 4rem;
+}
+
+.poly {
+  width: 190px; /* Adjust the width of the pentagon */
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center; /* Height can be equal to width for a symmetric pentagon */
+  background-color: #FF6565; /* Background color */
+  margin: 0px auto; /* Center the pentagon horizontally on the page */
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+.poly p.bold{
+   font-size: 46px;
+   font-weight: 700;
+}
+.poly p{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.2;
+}
+ form{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 3rem auto;
+    flex-direction: column;
+    width: 21rem;
+    height: 32rem;
+ }
+
+ form > input{
+    outline: none;
+    border: none;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    color: black;
+    text-align: left;
+    margin-bottom: 3rem;
+ }
+ form> input::placeholder{
+    text-align: left;
+    vertical-align: middle;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: black;
+ }
+  form> input:focus{
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  form p{
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  footer{
+    background-image: url('./images/Rectangle.svg'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image in the element */
+    background-repeat: no-repeat;
+    color: rgb(80, 74, 74);
+    height: 15.6rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  footer nav{
+    margin: 0;
+    
+  }
+  nav > ul > img{
+    width: 2rem;
+  }
+  footer p{
+    position: relative;
+    top: 3rem;
+    
+  }
+
+
