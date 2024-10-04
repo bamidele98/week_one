@@ -207,7 +207,7 @@ ul li{
     margin: 0;
     
   }
-  nav > ul > img{
+  nav > ul > a >img{
     width: 2rem;
   }
   footer p{
